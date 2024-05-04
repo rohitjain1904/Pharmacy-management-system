@@ -1,0 +1,25 @@
+/* styles.css */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .dashboard-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-item:hover {
+    background-color: #e0e0e0;
+  }
+  
